@@ -1,0 +1,27 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 4, 0, 0),
+    prodvers=(1, 4, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '080404b0',
+        [StringStruct('CompanyName', 'CraftWorks'),
+         StringStruct('FileDescription', '生产计划协同管理平台'),
+         StringStruct('FileVersion', '1.4.0'),
+         StringStruct('InternalName', 'ProductionPlan'),
+         StringStruct('LegalCopyright', 'Copyright © CraftWorks'),
+         StringStruct('OriginalFilename', '生产计划协同管理平台.exe'),
+         StringStruct('ProductName', '生产计划协同管理平台'),
+         StringStruct('ProductVersion', '1.4.0')])
+    ]),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)

@@ -1,0 +1,42 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# ---------- PyInstaller 构建产物 ----------
+build/
+dist/
+/*.spec
+
+# ---------- 运行时数据（含账号、计划、日志，禁止外传） ----------
+# 保留 data/templates/ 下的模板，其余运行期生成内容不入库
+data/app.db*
+data/project_lead.db*
+data/*.log
+data/capp_output/
+data/control_plan_output/
+data/spc_output/
+
+# ---------- 本机配置与生成文件 ----------
+build_tools/user_admin_config.json
+build_tools/__pycache__/
+output/
+sigma/
+tools/*.xlsx
+*.log
+
+# ---------- 编辑器 / 系统 ----------
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
